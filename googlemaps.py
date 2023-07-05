@@ -55,7 +55,7 @@ class GoogleMapsScraper:
         tries = 0
         while not clicked and tries < MAX_RETRY:
             try:
-                menu_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-value=\'Sort\']')))
+                menu_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-value=\'排序\']')))
                 menu_bt.click()
 
                 clicked = True
@@ -373,7 +373,7 @@ class GoogleMapsScraper:
 
         options.add_argument("--disable-notifications")
         #options.add_argument("--lang=en-GB")
-        options.add_argument("--accept-lang=en-GB")
+        options.add_argument("--accept-lang=zh-TW")
         input_driver = webdriver.Chrome(executable_path=ChromeDriverManager(log_level=0).install(), options=options)
 
          # click on google agree button so we can continue (not needed anymore)
