@@ -5,9 +5,9 @@ An additional extension helps to monitor and incrementally store the reviews in 
 
 ## Installation
 ### Important
-```
+- if python > 3.6, you should update ```element.py```:
 
-```
+        collections.Callable -> collections.abc.Callable
 
 Follow these steps to use the scraper:
 - Download Chromedrive from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.45/).
