@@ -4,6 +4,11 @@ The code allows to extract the **most recent** reviews starting from the url of 
 An additional extension helps to monitor and incrementally store the reviews in a MongoDB instance.
 
 ## Installation
+### Important
+```
+
+```
+
 Follow these steps to use the scraper:
 - Download Chromedrive from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.45/).
 - Install Python packages from requirements file, either using pip, conda or virtualenv:
